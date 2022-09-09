@@ -1,0 +1,29 @@
+.container {
+  margin: 2rem 0;
+
+  p {
+    line-height: 140%;
+    margin: 1rem 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  h2 {
+    line-height: 140%;
+    margin: 0 0 2rem;
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: justify;
+    color: var(--gray-50);
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--pink-100);
+  }
+}

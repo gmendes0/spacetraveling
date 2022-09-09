@@ -1,1 +1,8 @@
-// TODO
+.container {
+  padding: 4.97rem 0 2.55125rem;
+
+  div {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+}

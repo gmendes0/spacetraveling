@@ -4,4 +4,36 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --pink-100: #ff57b2;
+
+  --gray-50: #f8f8f8;
+  --gray-100: #d7d7d7;
+  --gray-200: #bbbbbb;
+  --gray-900: #1a1d23;
+
+  --max-width: 768px;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%; // 15px
+  }
+
+  @media (max-width: 768px) {
+    font-size: 87.5%; // 14px
+  }
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font: 400 1rem 'Inter', sans-serif;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-100);
+}
