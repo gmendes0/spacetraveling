@@ -119,5 +119,6 @@ export const getStaticProps: GetStaticProps = async () => {
         results: postsResponse.results,
       },
     },
+    revalidate: 60 * 60 * 24 * 7,
   };
 };
