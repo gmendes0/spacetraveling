@@ -66,8 +66,8 @@ const Post: NextPage<PostProps> = ({ post }) => {
           </span>
         </div>
 
-        {post.data.content.map(content => (
-          <PostContent content={content} />
+        {post.data.content.map((content, key) => (
+          <PostContent key={key} content={content} />
         ))}
       </div>
     </>
