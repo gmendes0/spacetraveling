@@ -4,5 +4,9 @@
   div {
     max-width: var(--max-width);
     margin: 0 auto;
+    
+    @media screen and (max-width: 425px) {
+      margin: 0 1.5rem;
+    }
   }
 }
